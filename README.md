@@ -1,11 +1,11 @@
-## Trabajo Acceso A Datos
+# Trabajo Acceso A Datos
 Trabajo para el modulo de Acceso a datos del curso de 2ºDAM.
-# Integrantes: Raúl Pacheco, Pablo Corral, Rafael , Víctor Chaves
-# Objetivos: 
+## Integrantes: Raúl Pacheco, Pablo Corral, Rafael , Víctor Chaves
+## Objetivos: 
 1. Revisa la implementación del patrón MVC, en caso de detectar algún fallo rectifícalo,
 2. Adapta la aplicación para que use el patrón observer, de manera que la interfaz refleje siempre las últimas modificaciones que ocurran en los datos. Por tanto, revisa como ahora mismo esta implementado y cámbialo para que funcione usando ese modelo de patrón.
 
-# Reglas: 
+## Reglas: 
 1. La aplicación no puede tener perdida de funcionalidades, a lo sumo podeis añadir nuevas que veáis interesantes. Estas nuevas funcionalidades inventadas por el grupo serán tenidas en cuenta en la nota.
 2. Este trabajo se realiza en 5 grupos de 4 alumn@s. Los grupos han sido definidos por el profesor.
 3. Cada grupo debe crear un repositorio en GitHub y los integrantes de cada grupo deben trabajar en modo colaborativo.
@@ -20,6 +20,6 @@ Trabajo para el modulo de Acceso a datos del curso de 2ºDAM.
 12. Así como, indicar que dificultades os habeis encontrado,  y que soluciones habeis propuesto.
 13. El día de la defensa, tener preparado la aplicación para poder ejecutarla y probarla, por tanto, tener configurado todo el entorno desde IntelliJ hasta la BBDD
 
-# Errores encontrados: 
+## Errores encontrados: 
 
 
