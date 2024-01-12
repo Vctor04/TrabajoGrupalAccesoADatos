@@ -1,6 +1,6 @@
 # Trabajo Acceso A Datos
 Trabajo para el modulo de Acceso a datos del curso de 2ºDAM.
-## Integrantes: Raúl Pacheco, Pablo Corral, Rafael , Víctor Chaves
+## Integrantes: Raúl Pacheco, Pablo Corral, Rafael González, Víctor Chaves
 ## Objetivos: 
 1. Revisa la implementación del patrón MVC, en caso de detectar algún fallo rectifícalo,
 2. Adapta la aplicación para que use el patrón observer, de manera que la interfaz refleje siempre las últimas modificaciones que ocurran en los datos. Por tanto, revisa como ahora mismo esta implementado y cámbialo para que funcione usando ese modelo de patrón.
