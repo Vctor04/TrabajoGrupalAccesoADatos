@@ -16,5 +16,6 @@ Trabajo para el modulo de Acceso a datos del curso de 2ºDAM.
 1. Errores en librerias.
 2. Error al integrar Hibernate al proyecto y tambien al pasarlo a maven.
 3. Error en la opción de nuevo en el apartado de prestamos.
+4. En mac da error en el fichero config.
 
 
