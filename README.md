@@ -58,7 +58,7 @@ _Para lanzar el programa lo haremos desde el fichero Biblioteca y iniciaremos se
 
 * **Víctor Chaves** - *Patrón observer y correción de errores* - [Victor04](https://github.com/Vctor04))
   
-* * **Rafael González** - *Documentación* - [rafael2347](https://github.com/rafael2347))
+* **Rafael González** - *Documentación* - [rafael2347](https://github.com/rafael2347))
 
 ---
 Recuerda si puedes soñarlo, puedes programarlo
