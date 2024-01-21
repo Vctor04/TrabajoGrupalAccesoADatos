@@ -1,21 +1,64 @@
-# Trabajo Acceso A Datos
-Trabajo para el modulo de Acceso a datos del curso de 2ºDAM.
+# Trabajo Acceso a Datos
 
-## Integrantes: Raúl Pacheco, Pablo Corral, Rafael González, Víctor Chaves
-## Objetivos: 
-1. Revisa la implementación del patrón MVC, en caso de detectar algún fallo rectifícalo,
-2. Adapta la aplicación para que use el patrón observer, de manera que la interfaz refleje siempre las últimas modificaciones que ocurran en los datos. Por tanto, revisa como ahora mismo esta implementado y cámbialo para que funcione usando ese modelo de patrón.
+Este proyecto trata de una aplicación en MVC la cual podremos listar, borrar, crear y editar en los apartados de categorias, libros, usuarios y prestamos.
+Cada apartado tiene su ventana para visualizar los datos y asi mismo a la hora de crear, editar o borrar.
 
-## Reglas: 
-1. La aplicación no puede tener perdida de funcionalidades, a lo sumo podeis añadir nuevas que veáis interesantes. Estas nuevas funcionalidades inventadas por el grupo serán tenidas en cuenta en la nota.
-2. La aplicación trabaja con java jdk17.
+## Comenzando 🚀
+
+Mira **Deployment** para conocer como desplegarlo nuestro proyecto.
+
+Una vez descargado del proyecto deberás de instalarle las librerias correspondientes.
+
+### Requisitos 📋
+
+Este proyecto trabaja con java jdk 17.
+Debes de usar la libreria de hibernate-search-5.8.o.Final-dist
+Para la conexión a la base de datos mysql debes de usarel mysql-connector-j-8.2.0
+Proyecto creado en el editor de código Intellij 2023.3.2 (Ultimate Edition) 
+
+## Despliegue 📦
+
+Para poder desplegarlo puedes descargarlo con:
+
+_Comando de Git_
+
+```
+git clone https://github.com/Vctor04/TrabajoGrupalAccesoADatos.git
+```
+
+_Descargando el archivo desde Code_
+
+```
+<> Code y luego pulsar Download ZIP
+```
+
+### Instalación 🔧
+
+1.Una vez descargado instalar las librerias en Proyect Structure.
+2.Establecer conexión con el docker de mysql 
+3.Lanzar el programa
+
+## Ejecutando el proyecto Biblioteca 📚 ⚙️
+
+_Para lanzar el programa lo haremos desde el fichero Biblioteca y iniciaremos sesión_
 
 
+## Construido con 🛠️
 
-## Errores encontrados: 
-1. Errores en librerias.
-2. Error al integrar Hibernate al proyecto y tambien al pasarlo a maven.
-3. Error en la opción de nuevo en el apartado de prestamos.
-4. En mac da error en el fichero config.
+* [Java]((https://jdk.java.net/17/)) - El lenguaje de programación usado
+* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [Hivernate]([https://rometools.github.io/rome/](https://hibernate.org/search/releases/5.8/))
 
 
+## Autores ✒️
+
+* **Raúl Pacheco** - *Trabajo Inicial y correción de errores* - [RaulPachecoo](https://github.com/RaulPachecoo)
+
+* **Pablo Corral** - *Patrón observer y correción de errores* - [Heylo03](https://github.com/Heylo03)
+
+* **Víctor Chaves** - *Patrón observer y correción de errores* - [Victor04](https://github.com/Vctor04))
+  
+* * **Rafael González** - *Documentación* - [rafael2347](https://github.com/rafael2347))
+
+---
+Recuerda si puedes soñarlo, puedes programarlo
