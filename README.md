@@ -52,7 +52,7 @@ _Para lanzar el programa lo haremos desde el fichero Biblioteca y iniciaremos se
 
 ## Autores ✒️
 
-* **Raúl Pacheco** - *Trabajo Inicial y correción de errores* - [RaulPachecoo](https://github.com/RaulPachecoo)
+* **Raúl Pacheco** - *Implementación de Hibernate y correción de errores* - [RaulPachecoo](https://github.com/RaulPachecoo)
 
 * **Pablo Corral** - *Patrón observer y correción de errores* - [Heylo03](https://github.com/Heylo03)
 
