@@ -63,6 +63,17 @@ Para ello hemos usado _Docker_, dentor del _Docker_ nos conecectamos a la base d
 2. Problemas con las sesiones de que algunos métodos han necesitado una sesión individual.
 3. A la hora de insertar un prestamo en la tabla prestamos, se creaba doblemente, para ello hemos modificado el método **grabarEnLogIns**.
 
+--Al Implementar Hiebermate errores:
+1. Correción falta en borrar usuario.
+2. Correción listar lista categorías.
+3. Correción en borrar categorías.
+4. Correción en el sector libros -> Combobox.
+5. Correción en categorías dentro de lista libros.
+6. Correción del botón nuevo en la parte de presatamo.
+
+--No hubo error al implementar el patrón observer en el proyecto.
+
+
 ## Autores ✒️
 
 * **Raúl Pacheco** - *Implementación de Hibernate y correción de errores* - [RaulPachecoo](https://github.com/RaulPachecoo)
