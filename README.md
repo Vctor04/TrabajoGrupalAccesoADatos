@@ -57,7 +57,7 @@ Para ello hemos usado _Docker_, dentor del _Docker_ nos conecectamos a la base d
 ## Implementación del patron de diseño observer.
 
 
-## Dificultades encontradas, y que soluciones habeis propuesto. ![image](https://github.com/Vctor04/TrabajoGrupalAccesoADatos/assets/82673985/8a62a1d8-9d10-4327-a74e-af1f83a4d9c3)
+## Dificultades encontradas, y que soluciones habeis propuesto.
 
 1. Daba error en un constructor en la clase PrestamosDTO que se había creado un constructor por defecto al generar la clase.
 2. Problemas con las sesiones de que algunos métodos han necesitado una sesión individual.
