@@ -38,9 +38,9 @@ _Descargando el archivo desde Code_
 2.Establecer conexión con el docker de mysql 
 3.Lanzar el programa
 
-## Ejecutando el proyecto Biblioteca 📚 ⚙️
+## Ejecutando el proyecto Biblioteca 📚 
 
-_Para lanzar el programa lo haremos desde el fichero Biblioteca y iniciaremos sesión_
+_Para lanzar el programa lo haremos desde el fichero Biblioteca, miramos que todo está conectado y iniciaremos sesión_
 
 
 ## Construido con 🛠️
@@ -49,6 +49,19 @@ _Para lanzar el programa lo haremos desde el fichero Biblioteca y iniciaremos se
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 * [Hivernate]([https://rometools.github.io/rome/](https://hibernate.org/search/releases/5.8/))
 
+
+## Correspondencia entre clases y tabla ⚙️
+Para ello hemos usado _Docker_, dentor del _Docker_ nos conecectamos a la base de datos Mysql, y allí nos hemos creado la base de datos Biblioteca, con nuestras diferentes tablas, prestamos, libros, usuarios y categorías 
+
+
+## Implementación del patron de diseño observer.
+
+
+## Dificultades encontradas, y que soluciones habeis propuesto. ![image](https://github.com/Vctor04/TrabajoGrupalAccesoADatos/assets/82673985/8a62a1d8-9d10-4327-a74e-af1f83a4d9c3)
+
+1. Daba error en un constructor en la clase PrestamosDTO que se había creado un constructor por defecto al generar la clase.
+2. Problemas con las sesiones de que algunos métodos han necesitado una sesión individual.
+3. A la hora de insertar un prestamo en la tabla prestamos, se creaba doblemente, para ello hemos modificado el método **grabarEnLogIns**.
 
 ## Autores ✒️
 
