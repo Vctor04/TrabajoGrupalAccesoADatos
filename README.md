@@ -55,7 +55,7 @@ Para ello hemos usado _Docker_, dentor del _Docker_ nos conecectamos a la base d
 
 
 ## Implementación del patron de diseño observer.
-
+Creamos dos interfaces observer y observable y hay un observer en cada clase de (...)DAOImpl y cuando tiramos de update (Observer observer) comprobamos de que cada clase viene (de las DAOImpl) y actualizamos esa lista. 
 
 ## Dificultades encontradas, y que soluciones habeis propuesto.⛔️
 
