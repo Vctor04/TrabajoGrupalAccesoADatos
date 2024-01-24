@@ -57,6 +57,21 @@ Para ello hemos usado _Docker_, dentor del _Docker_ nos conecectamos a la base d
 ## Implementación del patron de diseño observer.
 Creamos dos interfaces observer y observable y hay un observer en cada clase de (...)DAOImpl y cuando tiramos de update (Observer observer) comprobamos de que cada clase viene (de las DAOImpl) y actualizamos esa lista. 
 
+```
+  @Override
+  public void update(Subject sub) throws Exception{
+      if(sub instanceof UsuarioDAOImpl){
+        actualizarListaUsuarios();
+      }else if(sub instanceof CategoriaDAOImpl){
+        actualizarListaCategorias();
+      }else if(sub instanceof LibroDAOImpl){
+        actualizarListaLibros();
+      }else if(sub instanceof PrestamoDAOImpl){
+        actualizarListaPrestamos();
+      }
+  }
+```
+
 ## Dificultades encontradas, y que soluciones habeis propuesto.⛔️
 
 1. Daba error en un constructor en la clase PrestamosDTO que se había creado un constructor por defecto al generar la clase.
